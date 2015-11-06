@@ -22,6 +22,8 @@ Based on Soda Theme by Ian Hill ([http://buymeasoda.com/](http://buymeasoda.com/
 
 ![Screenshot](http://f.cl.ly/items/0B423I1f3D1H2t2h0n3B/Image%202014-09-07%20at%2011.32.55%20AM.png)
 
+![Screenshot](http://i.imgur.com/Ah6ssmg.png "Dark version in ST3 on Mac (captured: November, 6th)")
+
 ## Installation
 
 El Capitan theme is designed to work with the latest development builds of [Sublime Text 3](http://www.sublimetext.com/3dev).
