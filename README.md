@@ -22,8 +22,6 @@ Based on Soda Theme by Ian Hill ([http://buymeasoda.com/](http://buymeasoda.com/
 
 ![Screenshot](http://f.cl.ly/items/0B423I1f3D1H2t2h0n3B/Image%202014-09-07%20at%2011.32.55%20AM.png)
 
-(Add screeshots) 
-
 ## Installation
 
 El Capitan theme is designed to work with the latest development builds of [Sublime Text 3](http://www.sublimetext.com/3dev).
@@ -33,7 +31,14 @@ El Capitan theme is designed to work with the latest development builds of [Subl
 (Needs to be updated to reflect two different theme options)
 
 (Investigate Package Control)
-<!--If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Soda Theme via the `Package Control: Install Package` menu item. The Soda Theme package is listed as `Theme - Soda` in the packages list.-->
+
+If you are using [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install the theme via the `Package Control: Install Package` menu item:
+
+* Open Command Palette (mac: command + shift + p, windows: ctrl + shift + p),
+* Choose the `Package Control: Install Package` menu item,
+* Install the `Theme - El Capitan` package.
+
+[:earth_africa: Learn more →](https://packagecontrol.io/packages/Theme%20-%20El%20Capitan)
 
 ### Using Git
 
@@ -62,17 +67,15 @@ To configure Sublime Text to use the theme, follow the instructions below for yo
 
 ### Sublime Text 3
 
-(Needs to be updated to reflect two different theme options)
-
-* Open your User Settings Preferences file `Sublime Text -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "El Capitan.sublime-theme"`
+* Open your User Settings Preferences file `Sublime Text -> Preferences -> Settings - User` (or `Preferences: Settings – User` via Command Palette),
+* If you installed the theme via Package Manager, add an entry `"theme": "El Capitan.sublime-theme"`,
+* Add (or update) your theme entry to be `"theme": "Packages/Theme - El Capitan/El Capitan Light.sublime-theme"` or `"theme": "Packages/Theme - El Capitan/El Capitan Dark.sublime-theme"`.
 
 **Example Sublime Text 3 User Settings**
 
     {
-        "theme": "El Capitan.sublime-theme"
+        `"theme": "Packages/Theme - El Capitan/El Capitan Light.sublime-theme"`
     }
-
 
 ### Code Font
 
